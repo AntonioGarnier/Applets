@@ -1,4 +1,10 @@
-# Applets
+# Applets o aplicaciones standalone.
+
+### Requerimientos
+
+   |Instalado| Enlace |
+   |:-------:|:------:|
+   |Java|[Pagina de descarga](https://www.java.com/es/download/)
 
    Lo primero que hay que hacer es entrar en el panel de configuración de java y añadir la página web donde esta alojada la applet a la lista de excepciones. Para ello hay que seguir los siguientes pasos.
 
@@ -23,13 +29,15 @@
 
 ### Para cualquier navegador.
 
-   Tienes que tener java instalado. Con esto, existen dos opciones:
+   Existen dos opciones:
    1. Descargar el fichero con extension .jnlp y ejecutarlo.
    2. Utilizar el comando **javaws url_jnlp**. Ejemplo:
 
             javaws https://antoniogarnier.github.io/TiroParabolico/public/tiro.jnlp
 
-   El fichero en formato .jnlp no es peligroso, aunque el navegador te lo indique como tal cuando intentas descargarlo. Con el comando **javaws** no tienes problema. No es más que un fichero **xml** con extension **jnlp**. [Aquí puedes ver un ejemplo](public/README.md).
+   El fichero en formato .jnlp no es peligroso, aunque el navegador te lo indique como tal cuando intentas descargarlo. No es más que un fichero **xml** con extension **jnlp**. [Aquí puedes ver un ejemplo](public/README.md).
+
+   Con el comando **javaws** no tienes problema. 
 
    Con esto se ejecutaría la applet.
 
